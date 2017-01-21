@@ -1,0 +1,12 @@
+
+      <br>
+      Negativity by {{$result['names'][0]}} : {{ $result['negativityCount'][$result['names'][0]] }}
+      Negativity by {{$result['names'][1]}} : {{ $result['negativityCount'][$result['names'][1]] }}
+
+      <br>
+      Audio message sent by {{$result['names'][0]}} : {{ $result['audioCount'][$result['names'][0]] }}
+      Audio message sent by {{$result['names'][1]}} : {{ $result['audioCount'][$result['names'][1]] }}
+      <br>
+
+      Surprise  {{$result['names'][0]}} : {{ $result['surpriseCount'][$result['names'][0]] }}
+      Surprise {{$result['names'][1]}} : {{ $result['surpriseCount'][$result['names'][1]] }}<br><br>
